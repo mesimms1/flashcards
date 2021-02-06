@@ -1,0 +1,61 @@
+.body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin:  0;
+}
+
+textarea, h2, button {
+    font-size: inherit;
+}
+
+.main-container {
+    width: 94%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container-1 {
+    text-align: center;
+}
+
+.container-2 {
+    display: none;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin: auto;
+    width: 390px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+textarea{
+    border: 1px solid forestgreen;
+    outline: none;
+    border-radius: 5px;
+    width: 348px;
+    height: 70px;
+}
+
+/*close icon*/
+svg{
+   float: right;
+   cursor: pointer;
+   transition: 1s;
+}
+
+svg:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+
+.container-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
